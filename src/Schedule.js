@@ -1,6 +1,9 @@
 import React, { Component } from "react";
 import './App.css';
 import {Link} from 'react-router';
+import ScheduleAdvisorInfo from 'ScheduleAdvisorInfo';
+
+
 class Schedule extends Component {
   componentWillMount() {
     this.setState={day:1, month: 1, hour:1, minute:0}
@@ -64,7 +67,7 @@ class Schedule extends Component {
           </button>
 
         </div>
-        
+        <ScheduleAdvisorInfo />
         </div>
 <div className="center-button">
 
